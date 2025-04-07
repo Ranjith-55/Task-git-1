@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+
+    <!-- Navbar -->
+    <nav class="bg-white ">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <h1 class="text-gray-500 text-lg font-semibold"></h1>
+                <div class="hidden md:flex space-x-6 font-bold">
+                    <a href="#works" class="text-gray-700 hover:text-blue-500">Works</a>
+                    <a href="#Blog" class="text-gray-700 hover:text-blue-500">Blog</a>
+                    <a href="#Contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-6 md:px-12 py-12">
+        <div class="flex flex-col justify-between gap-12 md:flex-row items-center">
+            <div class="">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Hi, I am Tony Stark, <br> Creative Technologist</h1>
+                <p class="text-gray-600 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <a href="resume.pdf" download="Tony Stark_Resume.pdf" class="mt-6 inline-block px-6 py-3 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600">Download Resume</a>
+            </div>
+            <div class="md:w-1/3 mt-6 md:mt-0">
+                <img src="./Dp1.png" alt="Profile Image" class="w-40 h-40 object-fit rounded-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section id="Blog" class="bg-blue-100 py-10">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <h2 class="text-xl font-bold text-gray-800">Recent Posts</h2>
+                <a href="#" class="text-blue-500">View all</a>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6 mt-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-lg font-semibold text-gray-900">Making a design system from scratch</h3>
+                    <p class="text-gray-500 text-sm mt-2">12 Feb 2020 | Design, Pattern</p>
+                    <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-lg font-semibold text-gray-900">Creating pixel perfect icons in Figma</h3>
+                    <p class="text-gray-500 text-sm mt-2">12 Feb 2020 | Figma, Icon Design</p>
+                    <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Works -->
+    <section  id="works"class="max-w-4xl mx-auto px-6 py-12">
+        <h2 class="text-xl font-bold text-gray-800 mb-6">Featured Works</h2>
+        <div class="space-y-8">
+            <!-- Work 1 -->
+            <div class="flex items-start space-x-6">
+                <img src="./Designing Dashboards.png" alt="Work 1" class="w-20 h-20 rounded-lg">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900">Designing Dashboards</h3>
+                    <p class="text-gray-500 text-sm">2020 | Dashboard</p>
+                    <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+            </div>
+
+            <!-- Work 2 -->
+            <div class="flex items-start space-x-6">
+                <img src="./imgpng.webp" alt="Work 2" class="w-20 h-20 rounded-lg">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900">Vibrant Portraits of 2020</h3>
+                    <p class="text-gray-500 text-sm">2018 | Illustration</p>
+                    <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+            </div>
+
+            <!-- Work 3 -->
+            <div class="flex items-start space-x-6">
+                <img src="./q1.png" alt="Work 3" class="w-20 h-20 rounded-lg">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900">36 Days of Malayalam type</h3>
+                    <p class="text-gray-500 text-sm">2018 | Typography</p>
+                    <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="Contact" class="bg-gray-100 py-6">
+        <div class="max-w-4xl mx-auto text-center text-gray-600">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#"><img src="./Fb png.png" alt="Facebook"></a>
+                <a href="#"><img src="./insta png.png" alt="Instagram"></a>
+                <a href="#"><img src="./twitter png.png" alt="Twitter"></a>
+                <a href="#"><img src="./linkedin.png.png" alt="linkedin"></a>
+            </div>
+            <p>Copyright ©2025 All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
